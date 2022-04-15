@@ -2,8 +2,8 @@
 
 //2 * 3.14 * radius
 
-const perimeter = () => {
-    
-}
+const perimeter = (radius) => {
+  return 2 * 3.14 * radius;
+};
 
-console.log(perimeter(2))
+console.log(perimeter(2));

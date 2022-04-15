@@ -3,8 +3,9 @@
 //   counting with the extra space that separates
 //   both names
 
-const fullNameLength = () => {
-  
+const fullNameLength = (name, surname) => {
+  const fullName = name.concat(" ", surname);
+  return fullName.length;
 };
 
 console.log(fullNameLength("bob", "smith"));

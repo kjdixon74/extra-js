@@ -2,9 +2,9 @@
 
 const dataTypes = [2000, "Hi", true];
 
-const checkDatatype = (array) => {
+const checkDataType = (array) => {
   for (let i = 0; i < array.length; i++) {
     console.log(i, typeof array[i]);
   }
 };
-checkDatatype(dataTypes);
+checkDataType(dataTypes);

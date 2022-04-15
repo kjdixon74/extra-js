@@ -1,8 +1,7 @@
 // create a function multiply, that will receive 2 numbers as arguments and return them multiplied.
 
-const multiply = () => {
- 
+const multiply = (num1, num2) => {
+  return num1 * num2;
 };
-
 
 console.log(multiply(5, 7));

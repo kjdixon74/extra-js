@@ -3,7 +3,8 @@
 //3.14 * (radius * radius )
 //Math.pow(x, y)
 
-const area = () => {
-}
+const area = (radius) => {
+  return 3.14 * Math.pow(radius, 2);
+};
 
 console.log(area(4));
